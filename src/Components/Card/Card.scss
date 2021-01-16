@@ -1,0 +1,94 @@
+.card{
+        background: rgb(247, 247, 247);
+        border: 1px solid rgba(49, 47, 47, 0.4);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+
+        max-height: 420px;
+        max-width: 280px;
+
+        padding: 15px;
+
+        font-family: Poppins, sans-serif;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        
+        img{
+            width: 100%;
+            min-width: 230px;
+            min-height: 150px;
+            background: #C4C4C4;
+            border-radius: 5px;
+            
+        }
+        
+        .cardTextWrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+            margin: 2% 0;
+    
+            min-width: 230px;
+            width: 100%;
+        }
+
+        h1{
+            
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        border-radius: 5px;
+
+        color: #000000;
+    }
+
+    h2{
+        font-family: Poppins, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        
+
+        color: #000000;
+
+        margin: 1% 0;
+
+    }
+
+    p{
+        font-family: PT Serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .cardButtonWrapper{
+        display: flex;
+        width: 100%;
+        padding: 0 5%;
+        margin: 6% 0 1% 0;
+
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    button{
+        background: #40C9A2;
+        border: 1px solid rgba(49, 47, 47, 0.3);
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 4% 8%;
+        cursor: pointer;
+
+
+        font-size: 18px;
+        font-weight: 700;
+        color: #F4F4F9;
+
+    }
+}

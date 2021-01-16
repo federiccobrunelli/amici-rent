@@ -1,0 +1,109 @@
+//IMPORT SCSS STYLESHEETS
+@import "Views/App/App.scss";
+@import "Views/Home/Home.scss";
+@import "Views/VanPage/VanPage.scss";
+@import "Components/Card/Card.scss";
+@import "Components/Navbar/Navbar.scss";
+@import "Components/Review/Review.scss";
+@import "Components/CardsCarousel/CardsCarousel.scss";
+@import "Components/Footer/Footer.scss";
+
+//IMPORT FONT FAMILIES
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  border-radius: 5px;
+
+  color: #000000;
+}
+
+h2 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 1% 0;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+button {
+  background: #40c9a2;
+  border: 1px solid rgba(49, 47, 47, 0.3);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+
+  font-size: 18px;
+  font-weight: 700;
+  color: #f4f4f9;
+}
+
+
+.banner{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 27px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% 0;
+    padding: 1%;
+
+
+    background: #40C9A2;
+    color: white;
+    
+}
+
+.carousel {
+    margin: 3% 5%;
+  }
+
+
+  //CAROUSEL
+  .iLquPE,
+  .lgksPe,
+  .cJeRRR,
+  .guuruq {
+    background-color: rgba(64, 201, 162, 0.2);
+    box-shadow: 0 0 1px 3px rgb(58, 183, 79);
+    &:hover {
+      background-color: rgba(64, 201, 162, 1);
+    }
+  }
+
+.mapWrapper{
+  width: 100%;
+  max-width: 870px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.no-margin{
+  margin: 0;
+}
+

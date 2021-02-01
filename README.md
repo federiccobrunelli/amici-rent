@@ -1,6 +1,6 @@
 # RESTYLING OF AMICIRENT.IT
 
-Co-project with my Friend Ricky from LeWagon Berlin.
+Co-project with my friend Ricky from LeWagon Berlin.
 
 # HOW TO
 

@@ -181,14 +181,16 @@
 }
 
 .navbar {
-  background-color: #312F2F;
+  background-color: #312f2f;
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 98%;
-  margin-left: 2%;
+  height: 50px;
+  margin: 20px 0 0 20px;
   padding: 0 4% 0 0;
   overflow: visible;
+  border-radius: 38px 42px 0;
 }
 .navbar .logo {
   max-height: 90px;
@@ -200,7 +202,7 @@
   align-items: center;
 }
 .navbar .navButton {
-  background: #40C9A2;
+  background: #40c9a2;
   border: 1px solid rgba(49, 47, 47, 0.3);
   box-sizing: border-box;
   border-radius: 5px;
@@ -212,7 +214,10 @@
   font-size: 1em;
   line-height: 36px;
   text-align: center;
-  color: #F4F4F9;
+  color: #f4f4f9;
+}
+.navbar img {
+  padding-right: 10px;
 }
 
 .review {
